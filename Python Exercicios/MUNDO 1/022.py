@@ -1,0 +1,7 @@
+nome = str(input('Digite seu nome completo: ')).strip()
+nome2= nome.replace(' ', '')
+firstnome= nome.split()
+print(f"Seu nome em maiúsculo fica {nome.upper()}.")
+print(f'Seu nome em minúsculo fica {nome.lower()}.')
+print(f'Seu nome tem ao todo {len(nome2)} caracteres.')
+print(f'Seu primeiro nome é {firstnome[0]} e ele tem {len(firstnome[0])} caracteres.')
