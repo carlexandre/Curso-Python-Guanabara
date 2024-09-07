@@ -1,0 +1,5 @@
+times = ('Athletico-PR','Bahia','Flamengo','Botafogo','São Paulo','Cruzeiro','Atlético-MG','Bragantino','Palmeiras','Internacional','Fortaleza','Grêmio','Vasco','Criciúma','Juventude','Corinthias','Fluminense','Vitória','Atlético-GO','Cuiabá')
+print(f'Os 5 primeiros colocados são: {times[0:5]}.')
+print(f'Os últimos 4 colocados são: {times[-4:]}.')
+print(f'Os times em ordem alfabética ficam: {sorted(times)}.')
+print(f'O Fortaleza está na {times.index('Fortaleza')}° posição.')
